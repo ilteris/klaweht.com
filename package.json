@@ -4,8 +4,11 @@
   "description": "Personal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node app"
   },
+  "dependencies": {
+      "express": "*"
+  }
   "author": "",
   "license": "MIT"
 }
