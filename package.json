@@ -8,7 +8,7 @@
   },
   "dependencies": {
       "express": "*"
-  }
+  },
   "author": "",
   "license": "MIT"
 }
