@@ -7,3 +7,6 @@ app.get("/", function(req, res, next) {
     res.send("Hello <strong> home page </strong>");
 });
 
+app.get("/projects", function(req, res, next){
+    res.send("Hello <strong> projects </strong>")
+})
