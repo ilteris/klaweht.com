@@ -9,4 +9,10 @@ app.get("/", function(req, res, next) {
 
 app.get("/projects", function(req, res, next){
     res.send("Hello <strong> projects </strong>")
-})
+});
+
+app.get("/info", function(req, res, next) {
+    res.send("Hello <strong> info </strong>")
+});
+
+
