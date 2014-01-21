@@ -15,4 +15,4 @@ app.get("/info", function(req, res, next) {
     res.send("Hello <strong> info </strong>")
 });
 
-
+http.createServer(app).listen(8000);
